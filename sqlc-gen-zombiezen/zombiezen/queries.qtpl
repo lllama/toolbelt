@@ -15,7 +15,7 @@ import (
     "time"
     {%- endif %}
     {%- if q.NeedsToolbelt %}
-    "github.com/delaneyj/toolbelt/db"
+    "github.com/lllama/toolbelt/db"
     {%- endif %}
 )
 

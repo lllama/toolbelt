@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/delaneyj/toolbelt/wisshes"
+	"github.com/lllama/toolbelt/wisshes"
 	"github.com/goccy/go-json"
 	"github.com/linode/linodego"
 )

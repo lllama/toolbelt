@@ -7,7 +7,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/delaneyj/toolbelt"
+	"github.com/lllama/toolbelt"
 )
 
 type AptitudeStatus string

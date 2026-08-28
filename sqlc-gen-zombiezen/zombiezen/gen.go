@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/delaneyj/toolbelt"
+	"github.com/lllama/toolbelt"
 	"github.com/sqlc-dev/plugin-sdk-go/plugin"
 	"golang.org/x/tools/imports"
 )

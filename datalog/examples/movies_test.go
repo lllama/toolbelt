@@ -3,7 +3,7 @@ package examples
 import (
 	"testing"
 
-	"github.com/delaneyj/toolbelt/datalog"
+	"github.com/lllama/toolbelt/datalog"
 	"github.com/stretchr/testify/assert"
 )
 

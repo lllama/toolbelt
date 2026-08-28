@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/chewxy/math32"
-	tb "github.com/delaneyj/toolbelt"
+	tb "github.com/lllama/toolbelt"
 	"github.com/viterin/vek/vek32"
 )
 

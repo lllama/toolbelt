@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/delaneyj/toolbelt"
-	"github.com/delaneyj/toolbelt/bytebufferpool"
+	"github.com/lllama/toolbelt"
+	"github.com/lllama/toolbelt/bytebufferpool"
 	pluralize "github.com/gertd/go-pluralize"
 	"github.com/samber/lo"
 	"github.com/sqlc-dev/plugin-sdk-go/plugin"

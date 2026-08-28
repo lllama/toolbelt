@@ -1,7 +1,7 @@
 Protobuf plugin to generate NATS equivalent to gRPC services
 
 ```shell
-go install github.com/delaneyj/toolbelt/natsrpc/cmd/protoc-gen-natsrpc@latest
+go install github.com/lllama/toolbelt/natsrpc/cmd/protoc-gen-natsrpc@latest
 ```
 
 inside your `buf.gen.yaml` file, add the following:

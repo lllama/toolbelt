@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"time"
 
-	tb "github.com/delaneyj/toolbelt"
+	tb "github.com/lllama/toolbelt"
 )
 
 const (

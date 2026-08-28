@@ -17,7 +17,7 @@ Usage
 ```go
 package main
 
-import "github.com/delaneyj/toolbelt/vecdb"
+import "github.com/lllama/toolbelt/vecdb"
 
 func main() {
 	idx := vecdb.NewHNSW[string](2,

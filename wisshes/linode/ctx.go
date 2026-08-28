@@ -1,5 +1,5 @@
 package linode
 
-import "github.com/delaneyj/toolbelt/wisshes"
+import "github.com/lllama/toolbelt/wisshes"
 
 const ctxLinodeKeyPrefix wisshes.CtxKey = "linode-"

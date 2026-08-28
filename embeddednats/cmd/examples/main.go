@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/delaneyj/toolbelt/embeddednats"
+	"github.com/lllama/toolbelt/embeddednats"
 )
 
 func main() {

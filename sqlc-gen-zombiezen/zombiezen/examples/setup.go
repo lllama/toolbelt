@@ -12,7 +12,7 @@ import (
 	"slices"
 	"strings"
 
-	toolbeltdb "github.com/delaneyj/toolbelt/db"
+	toolbeltdb "github.com/lllama/toolbelt/db"
 )
 
 //go:embed migrations/*.sql

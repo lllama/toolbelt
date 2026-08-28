@@ -45,7 +45,7 @@ import (
 //line crud.qtpl:10
 	if t.NeedsToolbelt {
 //line crud.qtpl:10
-		qw422016.N().S(`"github.com/delaneyj/toolbelt/db"`)
+		qw422016.N().S(`"github.com/lllama/toolbelt/db"`)
 //line crud.qtpl:10
 	}
 //line crud.qtpl:10

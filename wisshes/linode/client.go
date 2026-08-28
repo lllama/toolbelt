@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/delaneyj/toolbelt/wisshes"
+	"github.com/lllama/toolbelt/wisshes"
 	"github.com/linode/linodego"
 	"golang.org/x/oauth2"
 )

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/delaneyj/toolbelt"
-	ext "github.com/delaneyj/toolbelt/natsrpc/protos/natsrpc"
+	"github.com/lllama/toolbelt"
+	ext "github.com/lllama/toolbelt/natsrpc/protos/natsrpc"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"

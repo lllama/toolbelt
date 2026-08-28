@@ -1,4 +1,4 @@
-module github.com/delaneyj/toolbelt
+module github.com/lllama/toolbelt
 
 go 1.25.0
 

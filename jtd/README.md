@@ -5,7 +5,7 @@ A JSON Type Definition (RFC 8927) to Go code generator.
 ## Installation
 
 ```bash
-go install github.com/delaneyj/toolbelt/jtd/cmd/jtd2go@latest
+go install github.com/lllama/toolbelt/jtd/cmd/jtd2go@latest
 ```
 
 ## Usage

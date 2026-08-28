@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/delaneyj/toolbelt"
+	"github.com/lllama/toolbelt"
 	pluralize "github.com/gertd/go-pluralize"
 	"github.com/sqlc-dev/plugin-sdk-go/plugin"
 )

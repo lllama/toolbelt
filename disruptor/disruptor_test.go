@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/delaneyj/toolbelt/disruptor"
+	"github.com/lllama/toolbelt/disruptor"
 )
 
 type collectingConsumer struct {

@@ -7,7 +7,7 @@ import (
     "fmt"
     {% if t.NeedsTimePackage %}"time"{% endif %}
     "zombiezen.com/go/sqlite"
-    {% if t.NeedsToolbelt %}"github.com/delaneyj/toolbelt/db"{% endif %}
+    {% if t.NeedsToolbelt %}"github.com/lllama/toolbelt/db"{% endif %}
 )
 
 type {%s t.SingleName.Pascal %}Model struct {

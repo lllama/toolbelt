@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package natsrpc;
 
-option go_package = "github.com/delaneyj/toolbelt/natsrpc/protos/natsrpc";
+option go_package = "github.com/lllama/toolbelt/natsrpc/protos/natsrpc";
 
 import "google/protobuf/descriptor.proto";
 import "google/protobuf/duration.proto";

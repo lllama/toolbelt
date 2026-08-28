@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/delaneyj/toolbelt/jtd"
+	"github.com/lllama/toolbelt/jtd"
 )
 
 func main() {

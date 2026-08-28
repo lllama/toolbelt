@@ -61,7 +61,7 @@ import (
 	if q.NeedsToolbelt {
 //line queries.qtpl:17
 		qw422016.N().S(`
-    "github.com/delaneyj/toolbelt/db"
+    "github.com/lllama/toolbelt/db"
 `)
 //line queries.qtpl:19
 	}

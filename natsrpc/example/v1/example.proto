@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package example;
 
-option go_package = "github.com/delaneyj/toolbelt/natsrpc/example";
+option go_package = "github.com/lllama/toolbelt/natsrpc/example";
 
 import "google/protobuf/descriptor.proto";
 import "google/protobuf/timestamp.proto";

@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/delaneyj/toolbelt/wisshes"
+	"github.com/lllama/toolbelt/wisshes"
 	"github.com/goccy/go-json"
 	"github.com/linode/linodego"
 	"github.com/samber/lo"

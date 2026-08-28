@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/delaneyj/toolbelt"
+	"github.com/lllama/toolbelt"
 	"github.com/zeebo/xxh3"
 )
 

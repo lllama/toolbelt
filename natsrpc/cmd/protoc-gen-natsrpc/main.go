@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/delaneyj/toolbelt/natsrpc"
+	"github.com/lllama/toolbelt/natsrpc"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 

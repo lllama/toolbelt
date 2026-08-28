@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/delaneyj/toolbelt/sqlc-gen-zombiezen/zombiezen"
+	"github.com/lllama/toolbelt/sqlc-gen-zombiezen/zombiezen"
 	"github.com/sqlc-dev/plugin-sdk-go/plugin"
 	"google.golang.org/protobuf/proto"
 )
