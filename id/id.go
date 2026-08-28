@@ -13,6 +13,7 @@ import (
 )
 
 var flake *zflake.Gen
+const filenameChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-"
 
 func NextID() int64 {
 	if flake == nil {
@@ -72,4 +73,15 @@ func AliasHashEncoded(alias string) string {
 
 func AliasHashEncodedf(format string, args ...interface{}) string {
 	return AliasHashEncoded(fmt.Sprintf(format, args...))
+}
+
+func SafeFilename(str string) string {
+	b := strings.Builder{}
+
+	for _, char := range str {
+		if strings.ContainsRune(filenameChars, char) {
+			b.WriteRune(char)
+		}
+	}
+	return b.String()
 }
