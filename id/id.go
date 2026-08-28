@@ -5,6 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/denisbrodbeck/machineid"
@@ -12,24 +13,25 @@ import (
 	"github.com/zeebo/xxh3"
 )
 
-var flake *zflake.Gen
+var (
+	flake     *zflake.Gen
+	flakeOnce sync.Once
+)
+
 const filenameChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-"
 
 func NextID() int64 {
-	if flake == nil {
+	flakeOnce.Do(func() {
 		id, err := machineid.ID()
 		if err != nil {
 			id = time.Now().Format(time.RFC3339Nano)
 		}
 		h := xxh3.HashString(id) % (1 << zflake.BitLenGID)
-		h16 := uint16(h)
-
 		flake = zflake.NewGen(
 			zflake.Epoch(time.Date(2023, 1, 1, 0, 0, 0, 0, time.UTC)),
-			zflake.GID(h16),
+			zflake.GID(uint16(h)),
 		)
-	}
-
+	})
 	return flake.NextFID()
 }
 
