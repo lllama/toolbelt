@@ -87,3 +87,17 @@ func SafeFilename(str string) string {
 	}
 	return b.String()
 }
+
+func SafeSubject(str string) string {
+	b := strings.Builder{}
+
+	for _, char := range str {
+		if strings.ContainsRune(filenameChars, char) {
+			b.WriteRune(char)
+		}
+		if char == ' ' {
+			b.WriteRune('-')
+		}
+	}
+	return b.String()
+}
